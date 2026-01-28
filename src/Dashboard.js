@@ -1,10 +1,6 @@
 // src/Dashboard.js
 import React from "react";
-<<<<<<< HEAD
-import logo from "./assets/GT_1.png";
-=======
 import logo from "./assets/GT(Blanco).png";
->>>>>>> 5c95cb7 (Actualizacion proyecto 27/01/2026)
 
 function Dashboard({ delegacion }) {
   const dashboards = {
@@ -19,7 +15,6 @@ function Dashboard({ delegacion }) {
         <h2>Dashboard Delegación {delegacion.charAt(0).toUpperCase() + delegacion.slice(1)}</h2>
       </header>
 
-<<<<<<< HEAD
       <iframe
         src={dashboards[delegacion]}
         title={`Dashboard ${delegacion}`}
@@ -27,14 +22,12 @@ function Dashboard({ delegacion }) {
         allowFullScreen
         className="dashboard-frame"
       ></iframe>
-=======
 <iframe title="SQL_ATH_SERVICIOS" 
 width="100%" 
 height="100%" 
 src="https://app.powerbi.com/view?r=eyJrIjoiMjFhZDMzNjAtNjE4ZS00NGY4LTliZTgtYzIzMWVjMmFhYzEyIiwidCI6IjdmNTI3ZDZhLWI5NGEtNDU3Mi04N2I0LTNjNjZmYjAwZjUxZSIsImMiOjh9" 
 frameborder="0" 
 allowFullScreen="true"></iframe>
->>>>>>> 5c95cb7 (Actualizacion proyecto 27/01/2026)
     </div>
   );
 }

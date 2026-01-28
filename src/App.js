@@ -5,11 +5,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import Dashboard from "./Dashboard";
 import "./App.css";
-<<<<<<< HEAD
-import logo from "./assets/GT_1.png";
-=======
 import logo from "./assets/GT(Blanco).png";
->>>>>>> 5c95cb7 (Actualizacion proyecto 27/01/2026)
 
 function App() {
   const [email, setEmail] = useState("");
