@@ -3,10 +3,10 @@ import React from "react";
 import logo from "./assets/GT(Blanco).png";
 
 function Dashboard({ delegacion }) {
-  const dashboards = {
+  /*const dashboards = {
     sevilla: "https://app.powerbi.com/view?r=tu_url_de_sevilla",
     madrid: "https://app.powerbi.com/view?r=tu_url_de_madrid",
-  };
+  };*/
 
   return (
     <div className="dashboard-container">
