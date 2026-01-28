@@ -15,13 +15,7 @@ function Dashboard({ delegacion }) {
         <h2>Dashboard Delegación {delegacion.charAt(0).toUpperCase() + delegacion.slice(1)}</h2>
       </header>
 
-      <iframe
-        src={dashboards[delegacion]}
-        title={`Dashboard ${delegacion}`}
-        frameBorder="0"
-        allowFullScreen
-        className="dashboard-frame"
-      ></iframe>
+
 <iframe title="SQL_ATH_SERVICIOS" 
 width="100%" 
 height="100%" 
